@@ -1,0 +1,497 @@
+/*core css*/
+    header {
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 80px;
+        background-color: #ffffff;
+        }
+
+    .headername {
+        float: left;
+        background-color: blue;
+        color: white;
+        width: 200px;
+        text-align: center;
+        font-family: 'Overpass', sans-serif;
+        margin-top: 10px;
+        font-size: 30px;
+        height: 70px;
+        margin-left: 18%;
+        line-height: 70px;
+        }
+
+    /* navigation bar for all pages*/
+    .navigationbar {
+        float: right;
+        text-align: center;
+        margin-right: 190px;
+        margin-top: 30px;
+        }
+
+    .navigationbar a {
+        text-decoration: none;
+        font-size: 20px;
+        text-align: center;
+        list-style-type: none;
+        padding: 15px;
+        font-family: 'Overpass', sans-serif;
+        color: #777777;
+        }
+              
+    .navigationbar a:hover {
+        background-color: blue;
+        color: white;
+        }
+          
+    .navigationbar a:active {
+        background-color: rgb(2, 10, 52);
+        }
+
+    body {
+        background-image: url("../images/background.jpg");
+        height: 900px;
+        width: 100%;
+        }
+
+    /* main contianer */
+    .maincontentbox {
+        background-color:#ffffff;
+        border: #dddddd;
+        padding: 15px;
+        max-width: 650px;
+        width: 100%;
+        margin-left: 260px;
+        margin-top: 20px;
+        margin-bottom: 10%;
+        font-family: 'Padauk', sans-serif;
+        color: #777777;
+        float: left;
+        }
+
+    .img1 {
+        float: left;
+        height: 200px;
+        width: 200px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+
+    #bodyh1{
+        font-family: 'Overpass', sans-serif;
+        color:blue;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-bottom-color: #dddddd;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 30px;
+        }
+
+    p {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        }
+
+    /*connect with me section */
+    .connectwithme {
+        float: right;
+        background-color:#ffffff;
+        border: #dddddd;
+        padding: 10px;
+        font-size: 30px;
+        margin-right: 200px;
+        margin-top: 20px;
+        width: 270px;
+        height: 120px;
+        text-align: left;
+        }
+
+    .connecticons{
+        list-style-type: none;
+        margin: 0;
+        padding-left: 10px;
+        }
+
+    .img2 {
+        height: 50px;
+        width: 50px;
+        margin-top: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-right: 6px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        }
+
+    #bodyh2{
+        font-family: 'Overpass', sans-serif;
+        color:blue;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-bottom-color: #dddddd;
+        padding: 7px;
+        text-align: left;
+        margin-bottom: 5px;
+        }
+
+    /* form page */
+    form {
+        font-family: Arial, Helvetica, sans-serif;
+        color:rgb(90, 89, 89);
+        padding: 5px;
+        }
+
+    input {
+        width: 590px;
+        color: #777777;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px;
+        margin-left: 5px;
+        }
+
+    textarea {
+        width: 590px;
+        height: 260px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 5px;
+        margin-bottom: 10px;
+        }
+
+    #send {
+        width: 100px;
+        height: 40px;
+        background-color: blue;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+    /* portfolio page */
+    .portitem  {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 25px;
+        margin-right: 20px;
+        }
+
+    .portpic {
+        height: 200px;
+        width: 100%;
+        
+        }
+
+    .portitem h2 {
+        position: absolute;
+        background-color: blue;
+        color: white;
+        text-align: center;
+        width: 100%;
+        bottom: 40px;
+        line-height: 50px;
+        font-size: 25px;
+        font-family: 'Overpass', sans-serif;
+        }
+
+    /*footer section */
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: darkgray;
+        color: lightgrey;
+        text-align: center;
+        vertical-align: bottom;
+        border-top: blue;
+        border-top-style: solid;
+        border-top-width: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+
+
+/* media query - 1200*/
+@media only screen and (max-width: 1100px) {
+
+    /* headername - 1200*/
+    .headername {
+        float: left;
+        width: 20%;
+        margin-left: 0%;
+        }
+
+
+    /* navigation bar - 1200*/
+    .navigationbar {
+        margin-right: 5%;
+        }
+            
+
+    /*connect with me section - 1200*/
+    .connectwithme {
+        width: 30%;
+        height: auto;
+        float: right;
+        margin-right: 5%;
+        }
+
+    /*main content section - 1200*/
+
+    .maincontentbox {
+        width: 40%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-bottom: 10%;
+        }
+        
+    p {
+        letter-spacing: .5px;
+        margin-right: 10px;
+        }
+
+    /*portfolio section - 980*/
+    .portitem  {
+        position: relative;
+        float: left;
+        width: 90%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        }   
+
+    .portpic {
+        height: 100%;
+        width: 100%;
+        }
+
+    .portitem h2 {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        bottom: 30px;
+        font-size: 25px;
+        }
+
+    /*form section - 980*/
+    form {
+        padding: 5px;
+        margin-right: 40px;
+        }
+
+    input {
+        width: 100%;
+        padding: 5px;
+        }
+
+    textarea {
+        width: 100%;
+        height: 300px;
+        }
+
+    /*footer section - 980*/
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        }
+    }
+
+/* media query - 980*/
+    @media only screen and (max-width: 980px) {
+
+        /* headername - 980*/
+        .headername {
+            float: left;
+            width: 20%;
+            margin-left: 10%;
+            }
+
+
+        /* navigation bar - 980*/
+        .navigationbar {
+            margin-right: 10%;
+            }
+                
+
+        /*connect with me section - 980*/
+        .connectwithme {
+            width: 30%;
+            height: auto;
+            float: right;
+            margin-right: 10%;
+            }
+
+        /*main content section - 980*/
+
+        .maincontentbox {
+            width: 40%;
+            height: auto;
+            margin-top: 20px;
+            margin-left: 10%;
+            margin-bottom: 10%;
+            }
+            
+        p {
+            letter-spacing: .5px;
+            margin-right: 10px;
+            }
+
+        /*portfolio section - 980*/
+        .portitem  {
+            position: relative;
+            float: left;
+            width: 90%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            }   
+
+        .portpic {
+            height: 100%;
+            width: 100%;
+            }
+
+        .portitem h2 {
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            bottom: 30px;
+            font-size: 25px;
+            }
+
+        /*form section - 980*/
+        form {
+            padding: 5px;
+            margin-right: 40px;
+            }
+
+        input {
+            width: 100%;
+            padding: 5px;
+            }
+
+        textarea {
+            width: 100%;
+            height: 300px;
+            }
+
+        /*footer section - 980*/
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            }
+        }
+
+/* media query - 768*/
+    @media only screen and (max-width: 768px) {
+
+        /* headername - 768*/
+        .headername {
+            width: 30%;
+            margin-left: 5%;
+            }
+
+        /* navigation bar - 768*/
+        .navigationbar {
+            margin-right: 0;
+            }
+                
+        /*connect with me section - 768*/
+        .connectwithme {
+            float: left;
+            width: 89%;
+            height: auto;
+            margin-left: 5%;
+            margin-bottom: 12%;
+            }
+
+        .img2 {
+            height: 70px;
+            width: 70px;
+            float: left;
+            }
+
+        #bodyh2{
+            text-align: left;
+                }
+
+        /*main content section - 768*/
+        .maincontentbox {
+            width: 100%;
+            height: auto;
+            margin-left: 5%;
+            margin-bottom: 2%;
+            }
+            
+        /*portfolio section - 768*/
+        .portitem  {
+            width: 48%;
+            margin-right: 0;
+            }   
+
+        .portpic {
+            height: 250px;
+            width: 100%;
+            }
+
+        /*footer section - 768*/
+        footer {
+            position: fixed;
+            }
+        }
+
+/*media query - 640*/   
+    @media only screen and (max-width: 640px) {
+
+        /* headername - 640*/
+        .headername {
+            width: 100%;
+            margin-left: 0;
+            }
+
+        /* navigation bar - 640*/
+        .navigationbar {
+            width: 100%;
+            margin-left: 0;
+            }
+                
+        /*connect with me section - 640*/
+        .connectwithme {
+            width: 88%;
+            margin-bottom: 15%;
+            }
+
+        #bodyh2{
+            text-align: left;
+                }
+
+        /*main content section - 640*/
+        .maincontentbox {
+            width: 86%;
+            }
+            
+        /*portfolio section - 640*/
+        .portitem  {
+            width: 95%;
+            }   
+
+        .portpic {
+            height: 100%;
+            width: 100%;
+            }
+
+        }
